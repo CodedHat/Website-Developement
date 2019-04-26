@@ -1,3 +1,4 @@
+<?php
 <!doctype html>
 <html lang="en">
 <head>
@@ -122,3 +123,4 @@ Select File to upload: <input name="uploaded" type="file" /><br />
 
 
 </html>
+?>
