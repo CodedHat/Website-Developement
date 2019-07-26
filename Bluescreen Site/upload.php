@@ -7,7 +7,7 @@ if ($uploaded_size > 350000) {
 echo "Your file is too large.<br>"; $ok=0; 
 }
 
-if ($uploaded_type =="text/plain") { 
+if ($uploaded_type !=="text/plain") { 
 echo "Only txt files allowed<br>"; $ok=0; 
 } 
 
